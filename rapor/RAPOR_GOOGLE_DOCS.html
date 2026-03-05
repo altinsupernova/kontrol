@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Plastik Enjeksiyon Proses Kontrol Raporu</title>
+<style>
+  body { font-family: Arial, sans-serif; font-size: 10pt; color: #000; max-width: 900px; margin: 20px auto; }
+  h1 { text-align: center; font-size: 14pt; margin-bottom: 2px; }
+  .subtitle { text-align: center; font-size: 8pt; color: #555; margin-bottom: 20px; }
+  .section { background-color: #29417A; color: #fff; font-weight: bold; font-size: 11pt; padding: 6px 10px; margin-top: 20px; margin-bottom: 8px; }
+  .subsection { background-color: #DCE6F1; font-weight: bold; font-size: 10pt; padding: 4px 10px; margin-top: 12px; margin-bottom: 6px; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 10px; }
+  th { background-color: #29417A; color: #fff; font-weight: bold; font-size: 9pt; padding: 5px 8px; border: 1px solid #999; text-align: center; }
+  td { font-size: 9pt; padding: 4px 8px; border: 1px solid #ccc; text-align: center; }
+  tr:nth-child(even) td { background-color: #F0F5FA; }
+  .info-table td { text-align: left; }
+  .info-table td:first-child { font-weight: bold; background-color: #F0F5FA; width: 180px; }
+  .note { font-size: 8pt; font-style: italic; color: #666; margin-top: 2px; }
+  .footer { text-align: center; font-size: 8pt; font-style: italic; color: #888; margin-top: 30px; border-top: 1px solid #ccc; padding-top: 8px; }
+  .decision-box { border: 2px solid #29417A; padding: 10px; margin-bottom: 10px; }
+  .decision-box b { font-size: 10pt; }
+</style>
+</head>
+<body>
+
+<h1>PLASTİK ENJEKSİYON PROSES KONTROL RAPORU</h1>
+<div class="subtitle">Doküman No: KKR-ENJ-001 &nbsp;|&nbsp; Rev: 01 &nbsp;|&nbsp; Ref: ISO 9001:2015 Madde 8.5.1 / ISO 2859-1 (AQL)</div>
+
+<!-- ═══════════ BÖLÜM A ═══════════ -->
+<div class="section">BÖLÜM A: GENEL BİLGİLER</div>
+
+<table class="info-table">
+  <tr><td>Müşteri</td><td>EBERLE</td><td style="font-weight:bold; background-color:#F0F5FA; width:180px;">Ürün Kodu</td><td></td></tr>
+  <tr><td>Ürün Adı</td><td>KARE KCK K.M</td><td style="font-weight:bold; background-color:#F0F5FA;">Sipariş No</td><td></td></tr>
+  <tr><td>Sipariş Adedi</td><td>100.000 Adet</td><td style="font-weight:bold; background-color:#F0F5FA;">Parti / Lot No</td><td></td></tr>
+  <tr><td>Makine No / Adı</td><td>BORCHE (Proses 6)</td><td style="font-weight:bold; background-color:#F0F5FA;">Hammadde Parti No</td><td></td></tr>
+  <tr><td>Kalıp No</td><td>EBERLE.KARE.KCK.K.M</td><td style="font-weight:bold; background-color:#F0F5FA;">Rapor Tarihi</td><td>…/…/202…</td></tr>
+  <tr><td>Hammadde Tipi</td><td></td><td style="font-weight:bold; background-color:#F0F5FA;">Kontrol Sıklığı</td><td>Her 50 Baskı</td></tr>
+</table>
+
+<!-- ═══════════ BÖLÜM B ═══════════ -->
+<div class="section">BÖLÜM B: MAKİNE PARAMETRELERİ</div>
+
+<!-- B.1 -->
+<div class="subsection">B.1 — Enjeksiyon Parametreleri (4 Aşama)</div>
+<table>
+  <tr><th>Aşama</th><th>Basınç (bar)</th><th>Hız (%)</th><th>Pozisyon (mm)</th></tr>
+  <tr><td>1</td><td>161.0</td><td>80.0</td><td>11.0</td></tr>
+  <tr><td>2</td><td>155.0</td><td>45.0</td><td>10.0</td></tr>
+  <tr><td>3</td><td>140.0</td><td>40.0</td><td>9.0</td></tr>
+  <tr><td>4</td><td>160.0</td><td>35.0</td><td>—</td></tr>
+</table>
+
+<!-- B.2 -->
+<div class="subsection">B.2 — Tutma (Holding) Parametreleri (3 Aşama)</div>
+<table>
+  <tr><th>Aşama</th><th>Basınç (bar)</th><th>Hız (%)</th><th>Süre (s)</th></tr>
+  <tr><td>1</td><td>60.0</td><td>5.0</td><td>1.00</td></tr>
+  <tr><td>2</td><td>0.0</td><td>0.0</td><td>0.00</td></tr>
+  <tr><td>3</td><td>0.0</td><td>0.0</td><td>0.00</td></tr>
+</table>
+
+<!-- B.3 -->
+<div class="subsection">B.3 — Plastikleştirme (Mal Alma) Parametreleri (3 Aşama)</div>
+<table>
+  <tr><th>Aşama</th><th>Geri Basınç (bar)</th><th>Basınç (bar)</th><th>Hız (%)</th><th>Pozisyon (mm)</th></tr>
+  <tr><td>1</td><td>5.0</td><td>90</td><td>70</td><td>10.0</td></tr>
+  <tr><td>2</td><td>8.0</td><td>90</td><td>70</td><td>15.0</td></tr>
+  <tr><td>3</td><td>10.0</td><td>90</td><td>70</td><td>28.0</td></tr>
+</table>
+
+<!-- B.4 -->
+<div class="subsection">B.4 — Sıcaklık Profili (Isıtma Bölgeleri)</div>
+<table>
+  <tr><th>Bölge 1 (Nozül)</th><th>Bölge 2</th><th>Bölge 3</th><th>Bölge 4</th><th>Bölge 5</th></tr>
+  <tr><td>275 °C</td><td>270 °C</td><td>270 °C</td><td>271 °C</td><td>270 °C</td></tr>
+</table>
+<table>
+  <tr><th>Parametre</th><th>Değer</th></tr>
+  <tr><td>Bekleme Isısı</td><td>100 °C</td></tr>
+  <tr><td>Yağ Sıcaklığı</td><td>21 °C</td></tr>
+</table>
+
+<!-- B.5 -->
+<div class="subsection">B.5 — Özet Proses Parametreleri</div>
+<table>
+  <tr><th>No</th><th>Parametre</th><th>Birim</th><th>Alt Limit</th><th>Hedef Değer</th><th>Üst Limit</th><th>Gerçekleşen 1</th><th>Gerçekleşen 2</th><th>Gerçekleşen 3</th><th>Durum</th></tr>
+  <tr><td>1</td><td>Kalıp Sıcaklığı</td><td>°C</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+  <tr><td>2</td><td>Eriyik Sıcaklığı</td><td>°C</td><td>270</td><td>272</td><td>275</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>3</td><td>Enj. Basınç (Aş.1)</td><td>bar</td><td>155</td><td>161</td><td>165</td><td>161.0</td><td>161.0</td><td></td><td></td></tr>
+  <tr><td>4</td><td>Enj. Hız (Aş.1)</td><td>%</td><td>75</td><td>80</td><td>85</td><td>80.0</td><td>80.0</td><td></td><td></td></tr>
+  <tr><td>5</td><td>Ütüleme Basıncı</td><td>bar</td><td>55</td><td>60</td><td>65</td><td>60.0</td><td>60.0</td><td></td><td></td></tr>
+  <tr><td>6</td><td>Ütüleme Süresi</td><td>s</td><td>0.8</td><td>1.0</td><td>1.2</td><td>1.00</td><td>1.00</td><td></td><td></td></tr>
+  <tr><td>7</td><td>Soğutma Süresi</td><td>s</td><td>23</td><td>25</td><td>27</td><td>25.0</td><td>25.0</td><td></td><td></td></tr>
+  <tr><td>8</td><td>Çevrim Süresi</td><td>s</td><td>25</td><td>27.6</td><td>35</td><td>27.6</td><td>49.7*</td><td></td><td></td></tr>
+  <tr><td>9</td><td>Sıkma Kuvveti</td><td>ton</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+</table>
+<p class="note">* Çevrim süresi 49.7s: Olağandışı yüksek — araştırılmalı (duruş, kalıp açma gecikmesi vb.)</p>
+
+<!-- B.6 -->
+<div class="subsection">B.6 — Ek Kesme / Zamanlama Parametreleri</div>
+<table>
+  <tr><th>Parametre</th><th>Değer</th></tr>
+  <tr><td>Enjek Basınç (Gerçek)</td><td>159.4 – 159.5 bar</td></tr>
+  <tr><td>Enjek Zaman</td><td>4.00 s</td></tr>
+  <tr><td>Yastıklama (Cushion)</td><td>6.36 – 6.45 mm</td></tr>
+  <tr><td>Anlık Tutma Zamanı</td><td>1.0 s</td></tr>
+  <tr><td>Cut-off Pozisyonu</td><td>21.6 mm</td></tr>
+  <tr><td>Vida Pozisyonu</td><td>31.26 – 31.30 mm</td></tr>
+</table>
+
+<!-- ═══════════ BÖLÜM C ═══════════ -->
+<div class="section">BÖLÜM C: GÖRSEL VE BOYUTSAL KALİTE KONTROL (ISO 2859-1 AQL)</div>
+
+<table>
+  <tr><th>No</th><th>Kontrol Saati</th><th>Üretim Miktarı (Sayaç)</th><th>Numune Adedi</th><th>Çöküntü İzi (OK/RET)</th><th>Çapak (OK/RET)</th><th>Çizik/Leke (OK/RET)</th><th>Kalıp Yüzeyi (OK/RET)</th><th>Renk Uyumu (OK/RET)</th><th>Boyutsal Kontrol (OK/RET)</th><th>Genel Sonuç</th><th>Operatör İmza</th></tr>
+  <tr><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>6</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>8</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>9</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>12</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<!-- ═══════════ BÖLÜM D ═══════════ -->
+<div class="section">BÖLÜM D: ÜRETİM ÖZETİ</div>
+
+<table>
+  <tr><th>Parametre</th><th>Değer</th></tr>
+  <tr><td>Toplam Üretim (Adet)</td><td></td></tr>
+  <tr><td>Sevk Edilen (Adet)</td><td></td></tr>
+  <tr><td>Hatalı / Fire (Adet)</td><td></td></tr>
+  <tr><td>Fire Oranı (%)</td><td>0,00%</td></tr>
+  <tr><td>Kabul Oranı (%)</td><td>0,00%</td></tr>
+  <tr><td>AQL Seviyesi</td><td>1.0 (Genel Kontrol Seviyesi II)</td></tr>
+</table>
+
+<!-- ═══════════ BÖLÜM E ═══════════ -->
+<div class="section">BÖLÜM E: HATA TÜRLERİ ANALİZİ</div>
+
+<table>
+  <tr><th>No</th><th>Hata Türü</th><th>Hata Adedi</th><th>Oran (%)</th><th>Sınıflandırma</th><th>Düzeltici Faaliyet</th></tr>
+  <tr><td>1</td><td>Çöküntü İzi (Sink Mark)</td><td></td><td>0,0%</td><td></td><td></td></tr>
+  <tr><td>2</td><td>Çapak (Flash)</td><td></td><td>0,0%</td><td></td><td></td></tr>
+  <tr><td>3</td><td>Kısa Baskı (Short Shot)</td><td></td><td>0,0%</td><td></td><td></td></tr>
+  <tr><td>4</td><td>Yanık İzi (Burn Mark)</td><td></td><td>0,0%</td><td></td><td></td></tr>
+  <tr><td>5</td><td>Eğilme / Çarpılma (Warpage)</td><td></td><td>0,0%</td><td></td><td></td></tr>
+  <tr><td>6</td><td>Çizik / Leke</td><td></td><td>0,0%</td><td></td><td></td></tr>
+  <tr><td>7</td><td>Renk Uyumsuzluğu</td><td></td><td>0,0%</td><td></td><td></td></tr>
+  <tr><td>8</td><td>Diğer</td><td></td><td>0,0%</td><td></td><td></td></tr>
+  <tr style="font-weight:bold;"><td></td><td>TOPLAM HATA</td><td>0</td><td>0,0%</td><td></td><td></td></tr>
+</table>
+
+<!-- ═══════════ BÖLÜM F ═══════════ -->
+<div class="section">BÖLÜM F: KARAR VE ONAY</div>
+
+<div class="decision-box">
+  <b>PARTİ KARARI: &nbsp;&nbsp;&nbsp; ☐ KABUL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ☐ ŞARTLI KABUL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ☐ RED</b>
+  <br><br>
+  Açıklama / Şartlı Kabul Nedeni: _______________________________________________________________
+</div>
+
+<!-- ═══════════ İMZA ═══════════ -->
+<div class="section">İMZA BLOĞU</div>
+
+<table>
+  <tr><th></th><th>Hazırlayan (Operatör)</th><th>Kontrol Eden (Kalite)</th><th>Onaylayan (Üretim Amiri)</th></tr>
+  <tr><td style="font-weight:bold;">Ad Soyad</td><td></td><td></td><td></td></tr>
+  <tr><td style="font-weight:bold;">İmza</td><td style="height:40px;"></td><td style="height:40px;"></td><td style="height:40px;"></td></tr>
+  <tr><td style="font-weight:bold;">Tarih</td><td></td><td></td><td></td></tr>
+</table>
+
+<div class="footer">Bu doküman ISO 9001:2015 Kalite Yönetim Sistemi kapsamında hazırlanmıştır. Kontrolsüz kopyası geçersizdir.</div>
+
+</body>
+</html>
