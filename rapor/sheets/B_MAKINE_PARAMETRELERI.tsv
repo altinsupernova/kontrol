@@ -1,0 +1,50 @@
+BÖLÜM B: MAKİNE PARAMETRELERİ
+
+B.1 — Enjeksiyon Parametreleri (4 Aşama)
+Aşama	Basınç (bar)	Hız (%)	Pozisyon (mm)
+1	161.0	80.0	11.0
+2	155.0	45.0	10.0
+3	140.0	40.0	9.0
+4	160.0	35.0	—
+
+B.2 — Tutma (Holding) Parametreleri (3 Aşama)
+Aşama	Basınç (bar)	Hız (%)	Süre (s)
+1	60.0	5.0	1.00
+2	0.0	0.0	0.00
+3	0.0	0.0	0.00
+
+B.3 — Plastikleştirme (Mal Alma) Parametreleri (3 Aşama)
+Aşama	Geri Basınç (bar)	Basınç (bar)	Hız (%)	Pozisyon (mm)
+1	5.0	90	70	10.0
+2	8.0	90	70	15.0
+3	10.0	90	70	28.0
+
+B.4 — Sıcaklık Profili (Isıtma Bölgeleri)
+Bölge 1 (Nozül)	Bölge 2	Bölge 3	Bölge 4	Bölge 5
+275 °C	270 °C	270 °C	271 °C	270 °C
+
+Parametre	Değer
+Bekleme Isısı	100 °C
+Yağ Sıcaklığı	21 °C
+
+B.5 — Özet Proses Parametreleri
+No	Parametre	Birim	Alt Limit	Hedef Değer	Üst Limit	Gerçekleşen 1	Gerçekleşen 2	Gerçekleşen 3	Durum
+1	Kalıp Sıcaklığı	°C	—	—	—	—	—	—	—
+2	Eriyik Sıcaklığı	°C	270	272	275
+3	Enj. Basınç (Aş.1)	bar	155	161	165	161.0	161.0
+4	Enj. Hız (Aş.1)	%	75	80	85	80.0	80.0
+5	Ütüleme Basıncı	bar	55	60	65	60.0	60.0
+6	Ütüleme Süresi	s	0.8	1.0	1.2	1.00	1.00
+7	Soğutma Süresi	s	23	25	27	25.0	25.0
+8	Çevrim Süresi	s	25	27.6	35	27.6	49.7*
+9	Sıkma Kuvveti	ton	—	—	—	—	—	—	—
+* Çevrim süresi 49.7s: Olağandışı yüksek — araştırılmalı
+
+B.6 — Ek Kesme / Zamanlama Parametreleri
+Parametre	Değer
+Enjek Basınç (Gerçek)	159.4 – 159.5 bar
+Enjek Zaman	4.00 s
+Yastıklama (Cushion)	6.36 – 6.45 mm
+Anlık Tutma Zamanı	1.0 s
+Cut-off Pozisyonu	21.6 mm
+Vida Pozisyonu	31.26 – 31.30 mm
